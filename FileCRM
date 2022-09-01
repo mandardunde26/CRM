@@ -1,4 +1,4 @@
-    WebDriver driver = new ChromeDriver();
+    		WebDriver driver = new ChromeDriver();
 		
 		driver.manage().window().maximize();
 		
@@ -7,5 +7,7 @@
 		driver.get("https://demo.actitime.com/login.do");
 		
 		String title = driver.getTitle();
+		
+		System.out.println("Title ---> "+title);
 		
 		
