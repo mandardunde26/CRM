@@ -8,4 +8,4 @@
 		
 		String title = driver.getTitle();
 		
-		System.out.println("Title ---> "+title);
+		
